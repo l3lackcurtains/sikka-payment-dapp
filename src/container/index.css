@@ -1,0 +1,13 @@
+.form-section {
+  background: #f1f1f1;
+  padding: 32px;
+  border-radius: 5px;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  text-transform: uppercase;
+  margin: 36px 0;
+  color: #191919;
+}
