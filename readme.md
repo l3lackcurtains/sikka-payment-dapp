@@ -59,9 +59,10 @@ Mining is the process of adding transactions to the large distributed public led
 - Mocha
 - Chai
 
-| <img src="res/libraries.png" width="400"/> | 
-|---|---|
-| System Integration |
+| <img src="res/libraries.png" width="400"/> |
+|---|
+| System Integration  |
+
 
 ## Limitations and Further Enhancements
 Limitations in our system observed so far:
