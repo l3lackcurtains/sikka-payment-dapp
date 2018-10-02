@@ -1,6 +1,6 @@
-#Sikka- A Decentralized Payment System
+# Sikka- A Decentralized Payment System
 
-##Table of Contents
+## Table of Contents
 - [ Introduction ](#introduction)
 - [Methodoloy](#methodoloy)
     - [System Architecture](#system-architecture)
@@ -16,7 +16,7 @@
 - [LICENCE](#licence)
 
 
-##Introduction
+## Introduction
 Sikka is implemented on Ethereum as a Smart Contract and includes an ERC20 compatible utility token, called SIK, which is used for payments.
 
 SIK is a general-purpose cryptocurrency that is:
@@ -25,26 +25,26 @@ SIK is a general-purpose cryptocurrency that is:
 - Non-inflationary
 - Fungible and transferable 
 
-##Methodoloy
+## Methodoloy
 
-###System Architecture
+### System Architecture
 <img src="res/system architecture.png" width="400"/>
 
-####System Components
-#####User
+#### System Components
+##### User
 There are two types of users: senders and receivers. The users use wallet app to perform various transactions such as sending currency.  
-#####P2P nodes
+##### P2P nodes
 P2P network is the type of network that doesn’t have any central system. Peer-to-peer (P2P) computing or networking is a distributed application architecture that partitions tasks or workloads between peers. 
-#####BlockChain
+##### BlockChain
 BlockChain is an open, distributed ledger that can record transactions between two parties efficiently and in a verifiable and permanent way. It forms the heart of Sikka.
-#####Mining
+##### Mining
 Mining is the process of adding transactions to the large distributed public ledger of existing transactions. The main incentive for mining is that users who choose to use a computer for mining are rewarded for doing so.
 
-###Activity Diagram
+### Activity Diagram
 
 <img src="res/Activity Diagram.png" width="400"/>
 
-###Tools Used
+### Tools Used
 - NPM
 - Truffle
 - Remix IDE
@@ -52,7 +52,7 @@ Mining is the process of adding transactions to the large distributed public led
 - Metamask
 - Geth
 
-###Libraries
+### Libraries
 - Web3.JS
 - React.JS
 - Webpack
@@ -63,7 +63,7 @@ Mining is the process of adding transactions to the large distributed public led
 |---|---|
 | System Integration |
 
-##Limitations and Further Enhancements
+## Limitations and Further Enhancements
 Limitations in our system observed so far:
 - Since the value of cryptocurrency is very high, this system might not be favorable for daily micro transactions.
 - Remembering of user tokens is a near tough thing to do.
