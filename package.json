@@ -1,5 +1,5 @@
 {
-  "name": "dPayment",
+  "name": "d-payment",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -14,7 +14,8 @@
     "react-scripts": "^1.1.4",
     "rsuite": "^3.0.1",
     "truffle-contract": "^3.0.5",
-    "web3": "^1.0.0-beta.34"
+    "web3": "^1.0.0-beta.34",
+    "lodash": ">=4.17.11"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
